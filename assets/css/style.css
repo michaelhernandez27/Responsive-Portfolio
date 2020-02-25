@@ -166,7 +166,6 @@ body {
     margin-right: 25px;
   }
   
-  /* contact page */
   
   #contact-form ul {
     margin-bottom: 20px;
@@ -204,4 +203,25 @@ body {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
+  }
+
+  @media only screen and (max-width: 980px) {
+    .Body,
+    header {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .mainBody,
+    header {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .mainBody,
+    header {
+      width: 100%;
+    }
   }
